@@ -11,7 +11,7 @@ def resize_image(image, max_width=800, max_height=600):
     return cv2.resize(image, (new_width, new_height))
 
 # Load the image
-image2 = cv2.imread("images/tiger.jpg")  # Update the path to your image
+image2 = cv2.imread("images/tiger.jpeg")  # Update the path to your image
 
 # Check if the image is loaded successfully
 if image2 is None:
