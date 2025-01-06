@@ -10,7 +10,7 @@ def resize_image(image, max_width=800, max_height=600):
     return cv2.resize(image, (new_width, new_height))
 
 # Load the image
-image = cv2.imread("images/color.jpg")
+image = cv2.imread("images/color.png")
 
 # Check if the image is loaded successfully
 if image is None:
