@@ -1,7 +1,7 @@
 import cv2
 
 # Load the image
-image = cv2.imread("images/color.jpg")
+image = cv2.imread("images/color.png")
 
 # Check if the image is loaded successfully
 if image is None:
